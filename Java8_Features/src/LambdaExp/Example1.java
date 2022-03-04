@@ -15,7 +15,7 @@ public class Example1 {
 		list.forEach(game->System.out.println(game));
 		System.out.println("Via Method Reference");
 		list.forEach(System.out::println);
-		System.out.println("Hello");
+		
 	}
 	
 }
